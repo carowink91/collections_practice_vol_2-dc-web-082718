@@ -107,5 +107,6 @@ def organize_schools (array)
   end
   newHash
   hash.each do |location, cityName|
-    binding.pr
+  end
+    binding.pry
 end
