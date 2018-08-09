@@ -102,8 +102,7 @@ def organize_schools (array)
   array.each do |info, hash|
     hash.each do |location, cityName|
       city = cityName
-      hash[city] = []
-      binding.pry
+      hash[city] = "flatiron"
     end
   end
 end
