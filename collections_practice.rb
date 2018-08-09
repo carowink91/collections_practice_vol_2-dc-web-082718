@@ -88,7 +88,8 @@ def find_cool (array)
       if value[:temperature]
         if value == "cool"
           cool << personHash
-      binding.pry
+        end
+      end
     end
   end
 end
