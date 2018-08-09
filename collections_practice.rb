@@ -106,4 +106,3 @@ def organize_schools (array)
     end
   end
 end
-
