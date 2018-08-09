@@ -78,3 +78,8 @@ def merge_data (keys, values)
   end
   newArray
 end
+
+
+def find_cool (array)
+  
+end
