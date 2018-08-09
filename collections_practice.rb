@@ -96,6 +96,6 @@ def find_cool (array)
 end
 
 
-def organized_schools (array)
+def organize_schools (array)
 
 end
