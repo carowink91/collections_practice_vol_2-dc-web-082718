@@ -104,7 +104,6 @@ def organize_schools (array)
       city = cityName
       binding.pry
       hash[:city] = []
-      binding.pry
     end
   end
 end
