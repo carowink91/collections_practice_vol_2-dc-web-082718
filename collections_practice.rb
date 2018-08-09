@@ -97,6 +97,5 @@ end
 
 
 def organized_schools (array)
-  binding.pry
 
 end
