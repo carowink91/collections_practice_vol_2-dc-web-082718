@@ -112,4 +112,5 @@ def organize_schools (array)
       newHash[cityName] << info
     end
   end
+  newHash
 end
