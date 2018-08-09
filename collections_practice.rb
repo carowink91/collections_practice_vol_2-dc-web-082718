@@ -112,7 +112,6 @@ def organize_schools (array)
       if cityName == newHash[cityName]
         binding.pry
       end
-      binding.pry
     end
   end
 end
