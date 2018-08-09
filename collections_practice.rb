@@ -97,5 +97,9 @@ end
 
 
 def organize_schools (array)
-binding.pry
+  hash = {}
+
+  array.each do |info|
+    binding.pry
+  end
 end
