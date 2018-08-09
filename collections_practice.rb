@@ -97,7 +97,7 @@ end
 
 
 def organize_schools (array)
-  hash = {}
+  newHash = {}
 
   array.each do |info, hash|
     hash.each do |location, cityName|
