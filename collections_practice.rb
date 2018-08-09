@@ -101,6 +101,7 @@ def organize_schools (array)
 
   array.each do |info|
     info.each do |school_place|
+    end
     binding.pry
   end
 end
