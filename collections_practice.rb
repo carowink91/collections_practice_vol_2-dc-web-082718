@@ -57,6 +57,7 @@ def count_elements (array)
       end
     end
   end
+  original_hash.uniq
 end
 
 
