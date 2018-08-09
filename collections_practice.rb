@@ -109,5 +109,6 @@ def organize_schools (array)
   binding.pry
   array.each do |info, hash|
     hash.each do |location, cityName|
+    end
   end
 end
