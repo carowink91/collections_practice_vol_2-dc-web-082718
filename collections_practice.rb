@@ -81,5 +81,9 @@ end
 
 
 def find_cool (array)
-  binding.pry
+  cool = []
+
+  array.each do |personHash|
+    binding.pry
+  end
 end
