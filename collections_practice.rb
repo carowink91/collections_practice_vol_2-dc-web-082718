@@ -50,9 +50,9 @@ end
 def count_elements (array)
   array.each do |hash1|
     hash1[:count] = 0
-    name = hash1[:name]
+    person = hash1[:name]
     array.each do |hash2|
-      if hash2[:name] == name
+      if hash2[:name] == person
         hash1[:count] += 1
       end
     end
