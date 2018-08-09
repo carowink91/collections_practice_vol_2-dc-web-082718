@@ -55,6 +55,9 @@ def count_elements (array)
     array.each do |nameHash|
       if nameHash[:name] = person
         nameHash[:counter] += 1
+      end
+    end
+  end
 end
 
 
