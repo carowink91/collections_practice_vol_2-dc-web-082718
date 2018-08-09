@@ -100,6 +100,7 @@ def organize_schools (array)
   hash = {}
 
   array.each do |info|
+    info.each do |school_place|
     binding.pry
   end
 end
