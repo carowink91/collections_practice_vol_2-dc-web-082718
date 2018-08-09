@@ -109,6 +109,7 @@ def organize_schools (array)
 
   array.each do |info, hash|
     hash.each do |location, cityName|
+      biding.pry
       if cityName == newHash[cityName]
         binding.pry
       end
