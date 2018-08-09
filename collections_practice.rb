@@ -100,6 +100,8 @@ def organize_schools (array)
   hash = {}
 
   array.each do |info, hash|
+    hash.each do |location_hash|
+      city = location_hash[:location]
     binding.pry
   end
 end
