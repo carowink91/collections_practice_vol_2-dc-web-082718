@@ -49,6 +49,12 @@ end
 
 def count_elements (array)
 
+  array.each do |nameHash|
+    nameHash[:count] = 0
+    person = nameHash[:name]
+    array.each do |nameHash|
+      if nameHash[:name] = person
+        nameHash[:counter] += 1
 end
 
 
