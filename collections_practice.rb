@@ -110,7 +110,6 @@ def organize_schools (array)
   array.each do |info, hash|
     hash.each do |location, cityName|
       newHash[cityName] << info
-      end
     end
   end
 end
