@@ -48,16 +48,15 @@ end
 
 
 def count_elements (array)
-
-  array.each do |hash1|
-    hash1[:count] = 0
-    person = hash1[:name]
-    array.each do |hash2|
-      if hash2[:name] == person
-        hash1[:counter] += 1
+  array.each do |original_hash|
+      original_hash[:count] = 0
+      name = original_hash[:name]
+      array.each do |hash|
+        if hash[:name] == name
+          original_hash[:count] += 1
+        end
       end
     end
-  end
 end
 
 
