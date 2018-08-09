@@ -84,6 +84,7 @@ def find_cool (array)
   cool = []
 
   array.each do |personHash|
+    personHash.each do |key, value|
     binding.pry
   end
 end
