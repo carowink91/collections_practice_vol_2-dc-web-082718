@@ -94,3 +94,7 @@ def find_cool (array)
   end
   cool
 end
+
+
+def organize_schools
+end
