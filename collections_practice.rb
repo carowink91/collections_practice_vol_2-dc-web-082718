@@ -103,7 +103,7 @@ def organize_schools (array)
     hash.each do |location, cityName|
       city = cityName
       binding.pry
-      hash[:city] = []
+      newHash[:city] = []
     end
   end
 end
