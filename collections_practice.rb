@@ -103,9 +103,9 @@ def organize_schools (array)
     hash.each do |location, cityName|
       city = cityName
       newHash[city] = []
-      hash.each do |location, cityName|
-        
     end
   end
   newHash
+  hash.each do |location, cityName|
+    binding.pr
 end
