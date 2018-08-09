@@ -104,6 +104,8 @@ def organize_schools (array)
       city = cityName
       newHash[city] = []
       binding.pry
+      array.each do |info, hash|
+        
     end
   end
 end
